@@ -58,7 +58,7 @@ public class LoginActivity extends AppCompatActivity {
         //FIXME 替换tom，从服务器获取登录成功的真实用户名。
         prefs.saveUser(user,(String) token);
         Log.d(TAG,"用户"+user+"登录成功,token="+token);
-        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        Intent intent = new Intent(LoginActivity.this, playerActivity.class);
         startActivity(intent);
     }
 

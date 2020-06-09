@@ -15,7 +15,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 
-public class MainActivity extends AppCompatActivity {
+public class playerActivity extends AppCompatActivity {
 
     Button playBtn;
     SeekBar positionBar;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_player);
 
 
                 playBtn = (Button) findViewById(R.id.playBtn);

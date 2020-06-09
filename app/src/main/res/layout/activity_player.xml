@@ -2,17 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Music_player"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:background="#A87E7E"
-    tools:context="cn.edu.scujcc.musicapp.MainActivity"
+    tools:context="cn.edu.scujcc.musicapp.playerActivity"
     android:orientation="vertical"
     android:gravity="center_horizontal">
 
     <TextView
-        android:id="@+id/Music_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
