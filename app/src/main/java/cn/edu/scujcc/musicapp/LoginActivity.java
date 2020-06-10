@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import com.google.android.material.textfield.TextInputLayout;
 
 public class LoginActivity extends AppCompatActivity {
@@ -95,4 +96,6 @@ public class LoginActivity extends AppCompatActivity {
         });
         prefs.setup(getApplicationContext());
     }
+
+
 }
