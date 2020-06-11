@@ -62,16 +62,16 @@ public class RegisterActivity extends AppCompatActivity {
             u.setUsername(username != null ? username.toString() : "");
 
             //检查密码是否一致
-            TextInputLayout passwordInput1 = findViewById(R.id.password);
+            TextInputLayout passwordInput = findViewById(R.id.password);
             TextInputLayout passwordInput2 = findViewById(R.id.password2);
-            Editable password1 = passwordInput1.getEditText().getText();
+            Editable password = passwordInput.getEditText().getText();
             Editable password2 = passwordInput2.getEditText().getText();
-            if (password1 != null && password2 != null) {
-                if (!password2.toString().equals(password1.toString())) { //两次密码不相同
+            if (password != null && password2 != null) {
+                if (!password2.toString().equals(password.toString())) { //两次密码不相同
                     error = true;
                     errorMessage = "两次密码不相同";
                 } else {
-                    u.setPassword(password1.toString());
+                    u.setPassword(password.toString());
                 }
             }
 
